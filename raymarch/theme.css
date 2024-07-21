@@ -1,0 +1,153 @@
+/*
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	margin-top: 40vh;
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 400;
+	font-size: 8.5vh;
+	color: #1cd000;
+}
+
+h2 {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 40px;
+	font-weight: 400;
+
+	color: #1cd000;
+}
+
+h3 {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 24px;
+	font-weight: 400;
+
+	margin-bottom: 4px;
+
+	color: #1cd000;
+}
+
+h4 {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 20px;
+	font-weight: 400;
+
+	margin-bottom: 4px;
+
+	color: #1cd000;
+}
+
+p {
+	font-family: 'IBM Plex Mono', monospace;
+	color: #1cd000;
+	font-size: 15px;
+}
+
+a {
+	font-family: 'IBM Plex Mono', monospace;
+	color: #1cd000;
+	font-size: 15px;
+
+	outline: 0;
+}
+
+a:visited {
+	color: #1cd000;
+}
+
+a:active {
+	color: #E32FFF;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+
+	font-size: 20px;
+	padding: 10px;
+	margin: 5px;
+	/* background-color: #d700da; */
+	background-color: #1cd000;
+
+	border-radius: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	/* border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px; */
+	border-bottom-color: #18b100;
+	
+	color: #f4f4f4;
+}
+
+button:disabled {
+	background-color: #9bcc93;
+	border-bottom-color: #7bb372;
+}
+
+input {
+	padding: 10px;
+	margin: 5px;
+
+	border: none;
+	background-color: #1cd000;
+
+	color: #f4f4f4;
+
+}
+
+.notice {
+	padding: 16px;
+	border: 4px double #181818;
+	border-radius: 6px;
+
+	background-color: #0f0f0f;
+	margin-bottom: 22px;
+}
+
+div.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+div.left {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	width: 100%;
+	
+	background-color: #181818;
+}
+
+header {
+	padding: 7px;
+	
+	background-color: #181818 !important;
+}
+
+.divider {
+	width: 50px;
+	height: 1px;
+	background-color: #1cd000;
+	margin: 20px;
+}
